@@ -1,5 +1,5 @@
-echo "Hello, Git and GitHub!"> hello.txt
+echo "Hello, Git and GitHub!" > hello.txt
 git init
-git add.
-git commit -m "Updated hello.txt"
+git add hello.txt
+git commit -m "Initial commit: Added hello.txt"
 git push origin main
